@@ -242,6 +242,7 @@ export default function Game() {
         {/* Title card + tap hint — visible before first tap, retire after. */}
         {phase === 'idle' && taps.size === 0 && (
           <>
+            <div className="lc-topveil" />
             <div className="lc-title">
               <div className="lc-title__overline">
                 <span>// the train that doesn't stop</span>
